@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\lib">
+      <UniqueIdentifier>{e7cade20-4585-454e-a0ff-b1c02970547c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\download">
+      <UniqueIdentifier>{9fc1afb6-60f0-4269-b8ab-ac0514adcf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\lib\curl">
+      <UniqueIdentifier>{fdabe3af-8b16-4dea-8cbc-f836d250d2ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\download\DownLoader.h">
+      <Filter>源文件\download</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\curl.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\curlbuild.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\curlrules.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\curlver.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\easy.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\mprintf.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\multi.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\stdcheaders.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\curl\include\win32\curl\typecheck-gcc.h">
+      <Filter>源文件\lib\curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\download\DownLoader.cpp">
+      <Filter>源文件\download</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="src\lib\curl\libcurl_imp.lib">
+      <Filter>源文件\lib\curl</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
